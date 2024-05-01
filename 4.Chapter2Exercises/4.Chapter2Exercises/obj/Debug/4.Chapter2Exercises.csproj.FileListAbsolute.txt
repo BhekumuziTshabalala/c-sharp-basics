@@ -1,0 +1,14 @@
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.exe.config
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.exe
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.pdb
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.csproj.AssemblyReference.cache
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.csproj.CoreCompileInputs.cache
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.exe
+P:\C#\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.pdb
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.exe.config
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.exe
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\bin\Debug\4.Chapter2Exercises.pdb
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.csproj.AssemblyReference.cache
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.csproj.CoreCompileInputs.cache
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.exe
+P:\C#\c# basics\4.Chapter2Exercises\4.Chapter2Exercises\obj\Debug\4.Chapter2Exercises.pdb
