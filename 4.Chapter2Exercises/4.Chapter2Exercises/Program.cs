@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Authentication.ExtendedProtection;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,7 +12,7 @@ namespace _4.Chapter2Exercises
     {
         static void Main(string[] args)
         {
-            exercise2();
+            exercise4();
         }
 
         /*
@@ -56,6 +58,49 @@ namespace _4.Chapter2Exercises
 
             Console.WriteLine("GB: " + gigabytes + " MB: " + megabytes + " KB: " + kilobytes + " bytes: " + bytes);
             Console.ReadKey();
+        }
+
+        /*
+            Develop a currency converter. The program should take two inputs: The exchange rate
+            for the amount of South African Rand per US Dollar and an amount of US Dollar. The
+            output should be properly formatted with the correct currency units and display the
+            equivalent amount of South African Rand. For example, with an exchange rate of
+            R6.77/$ and an input of $3, the output should be: "3.00$ = R 20.31".
+        */
+
+        static void exercise3()
+        {
+            Console.Write("Enter the exchange rate: ");
+            decimal exchangeRate = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Enter the Amount: ");
+            decimal amount = decimal.Parse(Console.ReadLine());
+            
+            decimal result = exchangeRate * amount;
+
+            Console.WriteLine(exchangeRate.ToString("F2") + "$" + " = " + "R " + result.ToString("F2"));
+            Console.ReadKey();
+
+        }
+
+
+        /*
+            Write a program for the console window that will allow the user to enter 5 numeric
+            values. The program must then display the average of the numbers to the nearest two
+            decimal digits
+         */
+        static void exercise4()
+        {
+            decimal sum = 0;
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Enter a number " + i + ": ");
+                sum += decimal.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("The average is : " + (sum / 5).ToString("F2"));
+            Console.ReadKey();
+
         }
     }
 }
