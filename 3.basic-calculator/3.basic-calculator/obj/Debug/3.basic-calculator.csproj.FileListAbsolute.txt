@@ -1,0 +1,7 @@
+P:\C#\3.basic-calculator\3.basic-calculator\bin\Debug\3.basic-calculator.exe.config
+P:\C#\3.basic-calculator\3.basic-calculator\bin\Debug\3.basic-calculator.exe
+P:\C#\3.basic-calculator\3.basic-calculator\bin\Debug\3.basic-calculator.pdb
+P:\C#\3.basic-calculator\3.basic-calculator\obj\Debug\3.basic-calculator.csproj.AssemblyReference.cache
+P:\C#\3.basic-calculator\3.basic-calculator\obj\Debug\3.basic-calculator.csproj.CoreCompileInputs.cache
+P:\C#\3.basic-calculator\3.basic-calculator\obj\Debug\3.basic-calculator.exe
+P:\C#\3.basic-calculator\3.basic-calculator\obj\Debug\3.basic-calculator.pdb
