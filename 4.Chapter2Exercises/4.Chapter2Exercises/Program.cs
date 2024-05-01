@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Authentication.ExtendedProtection;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace _4.Chapter2Exercises
@@ -12,7 +14,7 @@ namespace _4.Chapter2Exercises
     {
         static void Main(string[] args)
         {
-            exercise4();
+            exercise7();
         }
 
         /*
@@ -101,6 +103,62 @@ namespace _4.Chapter2Exercises
             Console.WriteLine("The average is : " + (sum / 5).ToString("F2"));
             Console.ReadKey();
 
+        }
+        /*
+            Write a program for the console window to allow the user to enter the radius and length
+            of a pipe. The program must then display the outer surface area of the pipe
+         */
+
+        static void exercise5()
+        {
+            Console.WriteLine("Enter the radius: ");
+            int radius = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the length: ");
+            int length = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("The outer surface area = " + (2 * (2 * radius) + 2 * (length)));
+        }
+
+        /*
+            Write a program for the console window for Johnny's Cash Shop. Allow the user to enter
+            prices of three items.Calculate and display the total owed.Then allow the user to enter
+            the amount offered by the customer and then calculate and display the amount to be
+            given as change.
+        */
+        static void exercise6()
+        {
+            Console.WriteLine("Johnny's Cash Shop\n");
+            decimal sum = 0;
+
+            for (int i = 1; i < 4; i++)
+            {
+                Console.Write("Enter item Price " + i + " :R");
+                sum += decimal.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("The price of the items :R" + sum);
+
+            Console.Write("Amount Provided by user :R");
+            decimal amount = decimal.Parse(Console.ReadLine());
+
+            Console.WriteLine("Change :R" + (amount - sum).ToString("F2"));
+            Console.ReadKey();
+
+        }
+
+        /*
+            Salesman earns a monthly salary that is compiled as follows:
+            Gross pay = R2000 + 15% of all sales
+            Nett pay = Gross pay - deductions, where
+            Deductions = Tax of R500 + 2% of all sales.
+         */
+        static void exercise7()
+        {
+            Console.Write("Enter sales: R ");
+            decimal sales = decimal.Parse(Console.ReadLine());
+            decimal grossSalary = 2000 + (sales * 13 / 100) - 500;
+            Console.WriteLine("Gross Pay: R " + grossSalary.ToString("F2"));
+            Console.ReadKey();
         }
     }
 }

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "P:\\C#\\c# basics\\4.Chapter2Exercises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|P:\\C#\\c# basics\\4.Chapter2Exercises\\4.Chapter2Exercises\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:4.Chapter2Exercises\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D801E646-93B6-49C7-B0BC-3824802DC159}|4.Chapter2Exercises\\4.Chapter2Exercises.csproj|p:\\c#\\c# basics\\4.chapter2exercises\\4.chapter2exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D801E646-93B6-49C7-B0BC-3824802DC159}|4.Chapter2Exercises\\4.Chapter2Exercises.csproj|solutionrelative:4.chapter2exercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "P:\\C#\\c# basics\\4.Chapter2Exercises\\4.Chapter2Exercises\\Program.cs",
               "RelativeDocumentMoniker": "4.Chapter2Exercises\\Program.cs",
-              "ToolTip": "P:\\C#\\c# basics\\4.Chapter2Exercises\\4.Chapter2Exercises\\Program.cs",
-              "RelativeToolTip": "4.Chapter2Exercises\\Program.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGEAAAAuAAAA",
+              "ToolTip": "P:\\C#\\c# basics\\4.Chapter2Exercises\\4.Chapter2Exercises\\Program.cs*",
+              "RelativeToolTip": "4.Chapter2Exercises\\Program.cs*",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAwwKAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T13:33:02.451Z",
               "EditorCaption": ""
